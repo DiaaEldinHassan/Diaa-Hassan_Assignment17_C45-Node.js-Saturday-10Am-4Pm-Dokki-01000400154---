@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    "module": "commonjs",
+    "target": "es2023",
+    "lib": ["esnext"],
+    "types": ["node"],
+
+    "sourceMap": false,      
+    "declaration": false,    
+    "declarationMap": false,  
+
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitOverride": true,
+    "noUnusedLocals": true,
+
+    "strict": true,
+    "checkJs": true,
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+    "esModuleInterop": true
+  },
+  "exclude": ["node_modules", "dist"] 
+}
