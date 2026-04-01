@@ -6,7 +6,7 @@ const jwtSkRefresh: string = process.env.JWT_SK_REFRESH || "";
 const redisUrl: string = process.env.REDIS_URL || "";
 const googleClientId: string = process.env.GOOGLE_CLIENT_ID || "";
 const googleClientSecret: string = process.env.GOOGLE_CLIENT_SECRET || "";
-/** Strip wrapping quotes and whitespace from env values (common .env mistake). */
+
 function cleanEnv(value: string | undefined): string {
   if (!value) return "";
   const t = value.trim();
